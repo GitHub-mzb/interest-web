@@ -274,7 +274,6 @@
                 "pageInfo":this.pageInfo,
                 'menuId':this.menuId
             });
-            console.log(1)
             this.axios({
               method: 'get',
               url: '/menus/parentId',
